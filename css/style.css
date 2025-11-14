@@ -401,6 +401,23 @@ button {
 	size: 3rem;
 }
 
+.docs-buttons{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.btn-docs{
+	color: var(--color-light);
+	gap: 40px;
+	width:100%;
+	justify-content: left;
+	padding: 0 40px;
+	border-radius: 20px;
+	height: 80px;
+}
+
 .footer {
 	background: var(--color-light);
 	padding: 80px 0 30px;
@@ -502,12 +519,36 @@ button {
 		order: 1;
 	}
 
-	.media-card__end{
+	.media-card__one{
 		order:2;
 	}
 
-	.about__text-end{
+	.about__text-one{
+		order:1;
+	}
+
+	.media-card__two{
 		order:3;
+	}
+
+	.about__text-two{
+		order:4;
+	}
+
+	.media-card__three{
+		order:5;
+	}
+
+	.about__text-three{
+		order:6;
+	}
+
+		.media-card__four{
+		order:7;
+	}
+
+	.about__text-four{
+		order:8;
 	}
 
 	.map-grid {
@@ -515,6 +556,10 @@ button {
 		display: flex;
 		flex-direction: column;
 	}
+
+.docs-buttons{
+	flex-direction: column;
+}
 }
 
 @media (max-width: 768px) {
